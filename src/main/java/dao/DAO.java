@@ -1262,7 +1262,7 @@ public class DAO {
     	try {
         	
             conn = new DBContext().getConnection();//mo ket noi voi sql
-            ps = conn.prepareStatement(query1);
+            ps = conn.prepareStatement(query);
 			
 //			 ps.setString(1, name);
 //			 ps.setString(2, image); 
